@@ -54,7 +54,7 @@ table#movies th, table#movies td {
   background: rosybrown;
   margin: 1em 0;
   padding: 4px;
-  color red;
+  color: red;
   text-align: center;
 }
 form label {
@@ -62,4 +62,9 @@ form label {
   line-height: 25px;
   font-weight: bold;
   color: maroon;
+}
+div.field_with_errors input{
+  border: 1px solid red;
+  background-color: yellow;
+  font-weight: bold;
 }

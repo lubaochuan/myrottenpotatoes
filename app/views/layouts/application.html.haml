@@ -7,6 +7,7 @@
     = csrf_meta_tags
 
   %body
+    = render :partial => 'sessions/login'
     - if flash[:notice]
       #notice.message= flash[:notice]
     - elsif flash[:warning]
